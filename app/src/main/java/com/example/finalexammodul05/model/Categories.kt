@@ -1,6 +1,6 @@
 package com.example.finalexammodul05.model
 
 data class Categories(
-    var image: Int,
+    var image: String,
     var title: String
 )

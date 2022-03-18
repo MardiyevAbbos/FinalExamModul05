@@ -104,11 +104,21 @@ class MainActivity : AppCompatActivity() {
             @SuppressLint("SetTextI18n")
             override fun onPageSelected(position: Int) {
                 when (position) {
+                    0 -> {
+                        tvSkip.visibility = View.VISIBLE
+                        tvNext.text = "Next"
+                        tvSkip.setOnClickListener {
+                            openRestaurantActivity()
+                        }
+                        tvNext.setOnClickListener {
+                            viewPager.setCurrentItem(1, true)
+                        }
+                    }
                     1 -> {
                         tvSkip.visibility = View.VISIBLE
                         tvNext.text = "Next"
                         tvSkip.setOnClickListener {
-                            finish()
+                            openRestaurantActivity()
                         }
                         tvNext.setOnClickListener {
                             viewPager.setCurrentItem(2, true)
@@ -118,28 +128,18 @@ class MainActivity : AppCompatActivity() {
                         tvSkip.visibility = View.VISIBLE
                         tvNext.text = "Next"
                         tvSkip.setOnClickListener {
-                            finish()
+                            openRestaurantActivity()
                         }
                         tvNext.setOnClickListener {
                             viewPager.setCurrentItem(3, true)
                         }
                     }
-                    3 -> {
+                    else -> {
                         tvSkip.visibility = View.GONE
                         tvNext.text = "Done"
                         tvNext.setOnClickListener {
                             SharedPref(context).isSaved = true
                             openRestaurantActivity()
-                        }
-                    }
-                    else -> {
-                        tvSkip.visibility = View.VISIBLE
-                        tvNext.text = "Next"
-                        tvSkip.setOnClickListener {
-                            finish()
-                        }
-                        tvNext.setOnClickListener {
-                            viewPager.setCurrentItem(1, true)
                         }
                     }
                 }

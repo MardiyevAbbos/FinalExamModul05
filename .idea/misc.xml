@@ -3,16 +3,30 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Intermediate(5-modul)/Lesson10/FinalExam(Modul_5 Kotlin)/app/src/main/res/drawable-anydpi/ic_book.xml" value="0.2169230769230769" />
+        <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Intermediate(5-modul)/Lesson10/FinalExam(Modul_5 Kotlin)/app/src/main/res/drawable-anydpi/ic_clear_view.xml" value="0.2169230769230769" />
+        <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Intermediate(5-modul)/Lesson10/FinalExam(Modul_5 Kotlin)/app/src/main/res/drawable-anydpi/ic_search_view.xml" value="0.2169230769230769" />
+        <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Intermediate(5-modul)/Lesson10/FinalExam(Modul_5 Kotlin)/app/src/main/res/drawable-xhdpi/shape_rounded_collections_tv.xml" value="0.2169230769230769" />
+        <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Intermediate(5-modul)/Lesson10/FinalExam(Modul_5 Kotlin)/app/src/main/res/drawable/selected_icon_bottom_navigation.xml" value="0.2169230769230769" />
         <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Intermediate(5-modul)/Lesson10/FinalExam(Modul_5 Kotlin)/app/src/main/res/drawable/shape_border_black_ll.xml" value="0.2203125" />
         <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Intermediate(5-modul)/Lesson10/FinalExam(Modul_5 Kotlin)/app/src/main/res/drawable/shape_item_categories.xml" value="0.2203125" />
+        <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Intermediate(5-modul)/Lesson10/FinalExam(Modul_5 Kotlin)/app/src/main/res/drawable/shape_rounded_border_search.xml" value="0.2169230769230769" />
+        <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Intermediate(5-modul)/Lesson10/FinalExam(Modul_5 Kotlin)/app/src/main/res/drawable/shape_rounded_collections_fl.xml" value="0.2169230769230769" />
+        <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Intermediate(5-modul)/Lesson10/FinalExam(Modul_5 Kotlin)/app/src/main/res/drawable/shape_rounded_is_online.xml" value="0.2169230769230769" />
         <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Intermediate(5-modul)/Lesson10/FinalExam(Modul_5 Kotlin)/app/src/main/res/drawable/shape_rounded_text_view.xml" value="0.2203125" />
         <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Intermediate(5-modul)/Lesson10/FinalExam(Modul_5 Kotlin)/app/src/main/res/layout/activity_main.xml" value="0.21" />
         <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Intermediate(5-modul)/Lesson10/FinalExam(Modul_5 Kotlin)/app/src/main/res/layout/activity_restaurant.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Intermediate(5-modul)/Lesson10/FinalExam(Modul_5 Kotlin)/app/src/main/res/layout/activity_splash.xml" value="0.33" />
         <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Intermediate(5-modul)/Lesson10/FinalExam(Modul_5 Kotlin)/app/src/main/res/layout/fragment_collection.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Intermediate(5-modul)/Lesson10/FinalExam(Modul_5 Kotlin)/app/src/main/res/layout/fragment_for_view_pager.xml" value="0.22" />
         <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Intermediate(5-modul)/Lesson10/FinalExam(Modul_5 Kotlin)/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Intermediate(5-modul)/Lesson10/FinalExam(Modul_5 Kotlin)/app/src/main/res/layout/fragment_messages.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Intermediate(5-modul)/Lesson10/FinalExam(Modul_5 Kotlin)/app/src/main/res/layout/fragment_search.xml" value="0.22" />
         <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Intermediate(5-modul)/Lesson10/FinalExam(Modul_5 Kotlin)/app/src/main/res/layout/item_categories.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Intermediate(5-modul)/Lesson10/FinalExam(Modul_5 Kotlin)/app/src/main/res/layout/item_collections_view.xml" value="0.22" />
+        <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Intermediate(5-modul)/Lesson10/FinalExam(Modul_5 Kotlin)/app/src/main/res/layout/item_messages_view.xml" value="0.9" />
         <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Intermediate(5-modul)/Lesson10/FinalExam(Modul_5 Kotlin)/app/src/main/res/layout/item_restaurant_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Intermediate(5-modul)/Lesson10/FinalExam(Modul_5 Kotlin)/app/src/main/res/layout/item_search_view.xml" value="0.5" />
         <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Intermediate(5-modul)/Lesson10/FinalExam(Modul_5 Kotlin)/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
       </map>
     </option>
@@ -26,7 +40,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.33" />
+        <option name="scale" value="0.5" />
       </ProjectState>
     </option>
   </component>

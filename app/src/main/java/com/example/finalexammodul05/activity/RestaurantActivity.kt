@@ -6,6 +6,8 @@ import androidx.fragment.app.Fragment
 import com.example.finalexammodul05.R
 import com.example.finalexammodul05.fragment.CollectionsFragment
 import com.example.finalexammodul05.fragment.HomeFragment
+import com.example.finalexammodul05.fragment.MessagesFragment
+import com.example.finalexammodul05.fragment.SearchFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class RestaurantActivity : AppCompatActivity() {
@@ -21,18 +23,16 @@ class RestaurantActivity : AppCompatActivity() {
     }
 
     private fun initViews() {
-        val fragment = HomeFragment()
-        val fragment1 = CollectionsFragment()
 
-        setCurrentFragment(fragment)
+        setCurrentFragment(HomeFragment().newInstance())
 
         bottomNavigationView = findViewById(R.id.bottomNavigationView)
         bottomNavigationView.setOnNavigationItemSelectedListener {
             when (it.itemId) {
-                R.id.home -> setCurrentFragment(fragment)
-                R.id.collections -> setCurrentFragment(fragment1)
-                R.id.messages -> setCurrentFragment(fragment)
-                R.id.search -> setCurrentFragment(fragment1)
+                R.id.home -> setCurrentFragment(HomeFragment().newInstance())
+                R.id.collections -> setCurrentFragment(CollectionsFragment().newInstance())
+                R.id.messages -> setCurrentFragment(MessagesFragment().newInstance())
+                R.id.search -> setCurrentFragment(SearchFragment().newInstance())
             }
             true
         }
