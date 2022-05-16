@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/shape_rounded_collections_fl">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/my_photo"
+            android:scaleType="centerCrop"
+            android:padding="0.6dp"
+            app:strokeWidth="0.6dp"
+            app:strokeColor="#cbcbcb"
+            app:shapeAppearanceOverlay="@style/shape_collections_corners"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            android:text="Hotels"
+            android:background="@drawable/shape_rounded_collections_tv"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </FrameLayout>
+
+</LinearLayout>
